@@ -1,0 +1,48 @@
+<template name="SignUpReview">
+    <div class="page page-default">
+        <div class="wrap review-sign-up">
+            <h2 class="page-heading">Everything look alright?</h2>
+            <p class="sub-text">Hit Submit when you're ready, or click Edit if you'd like to make changes.</p>
+
+
+
+
+            <ul class="review-list jagged-bg">
+                <li class="review-list-item flex flex-middle">
+                    <span class="label">First name</span>
+                    <span class="text">{{profile.firstName}}</span>
+                </li>
+                <li class="review-list-item flex flex-middle">
+                    <span class="label">Last Name</span>
+                    <span class="text">{{profile.lastName}}</span>
+                </li>
+                <li class="review-list-item flex flex-middle">
+                    <span class="label">Email Address</span>
+                    <span class="text">{{profile.email}}</span>
+                </li>
+                <li class="review-list-item flex flex-middle">
+                    <span class="label">Phone Number</span>
+                    <span class="text">{{profile.phone}}</span>
+                </li>
+                <li class="review-list-item flex flex-middle">
+                    <span class="label">Date of Birth</span>
+                    <span class="text">{{profile.birthday}}</span>
+                </li>
+                <li class="review-list-item flex flex-middle">
+                    <span class="label">Year started skating</span>
+                    <span class="text">{{profile.startedSkatingYear}}</span>
+                </li>
+                <li class="review-list-item flex flex-middle">
+                    <span class="label">Home ZipCode</span>
+                    <span class="text">{{profile.zipCode}}</span>
+                </li>
+            </ul>
+
+
+            <button class="btn btn-large btn-rounded btn-flex btn-primary">Submit Info</button>
+            <div class="text-center">
+                <a href="/sign-up">Edit your profile</a>
+            </div>
+        </div>
+    </div>
+</template>

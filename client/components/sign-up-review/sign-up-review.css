@@ -1,0 +1,24 @@
+.review-list{
+    font-size: 12px;
+    margin: 0 0 30px;
+}
+
+.review-list-item {
+    margin: 0 0 10px;
+}
+
+.review-list-item:last-child {
+    margin: 0;
+}
+
+.review-list .label {
+    min-width: 140px;
+}
+
+.review-list .text {
+    width: 100%;
+}
+
+.review-sign-up .btn-submit {
+    margin: 0 0 10px;
+}

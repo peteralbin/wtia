@@ -1,0 +1,44 @@
+<template name="SignUp">
+    <div class="page page-default">
+        <div class="wrap">
+            <h2 class="page-heading">Tell us how amazing you are.</h2>
+            <p class="sub-text">Priovide us some basic information about yourself so we can ensure that you get the most relevant feeds and alerts.</p>
+
+            <form class="form sign-up" id="signUpForm">
+                <p class="form-note text-center">* Denotes a required field</p>
+                <ul class="form-list jagged-bg">
+                    <li class="form-list-item flex flex-middle">
+                        <label class=" control-label">First name</label>
+                        <input type="text" class="input-style" name="firstName"  value="{{profile.firstName}}">
+                    </li>
+                    <li class="form-list-item flex flex-middle">
+                        <label class="control-label">Last Name</label>
+                        <input type="text" class="input-style" name="lastName" value="{{profile.lastName}}">
+                    </li>
+                    <li class="form-list-item flex flex-middle">
+                        <label class="control-label">Email Address</label>
+                        <input type="text" class="input-style" name="email" value="{{profile.email}}">
+                    </li>
+                    <li class="form-list-item flex flex-middle">
+                        <label class="control-label">Phone Number</label>
+                        <input type="text" class="input-style" name="phone" value="{{profile.phone}}">
+                    </li>
+                    <li class="form-list-item flex flex-middle">
+                        <label class="control-label">Date of Birth</label>
+                        <input type="text" class="input-style" name="birthday" value="{{profile.birthday}}">
+                    </li>
+                    <li class="form-list-item flex flex-middle">
+                        <label class="control-label">Year started skating</label>
+                        <input type="text" class="input-style" name="startedSkatingYear" value="{{profile.startedSkatingYear}}">
+                    </li>
+                    <li class="form-list-item flex flex-middle">
+                        <label class="control-label">Home ZipCode</label>
+                        <input type="text" class="input-style" name="zipCode" value="{{profile.zipCode}}">
+                    </li>
+                </ul>
+
+                <button class="btn btn-large btn-rounded btn-flex btn-primary">Verify Info</button>
+            </form>
+        </div>
+    </div>
+</template>

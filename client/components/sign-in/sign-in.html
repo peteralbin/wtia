@@ -1,0 +1,37 @@
+<template name="SignIn">
+    <div class="wrap">
+        <p class="intro-text">Welcome back. Did you get stuck in the penalty box?</p>
+
+        <form class="form sign-in">
+            <ul class="form-list">
+                <li class="form-list-item">
+                    <label for="userName" class="control-label">User name</label>
+                    <input type="text" class="input-style" id="userName">
+                </li>
+                <li class="form-list-item">
+                    <label for="password" class="control-label">Password</label>
+                    <input type="password" class="input-style" id="password">
+                </li>
+                <li class="form-list-item">
+                    <a class="link" href="#">Forgot your UN or PW?</a>
+                </li>
+                <li class="form-list-item text-right">
+                    <button class="btn btn-default btn-rounded">Sign In</button>
+                </li>
+            </ul>
+        </form>
+
+        <ul class="sign-in-btns text-center">
+            <li>
+                <a class="btn btn-primary" href="/sign-up">Create an account</a>
+            </li>
+            <li>
+                <a class="btn btn-facebook" href="#" id="facebook-login">Login with Facebook</a>
+            </li>
+            <li>
+                <a class="btn btn-plain" href="/">I'll check it out first</a>
+            </li>
+        </ul>
+
+    </div>
+</template>

@@ -1,0 +1,39 @@
+.wrap .intro-text {
+    max-width: 200px;
+    font: 16px Arial;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto 40px;
+}
+
+.sign-in .control-label {
+    display: block;
+    font: 14px Arial;
+    margin: 0 0 5px 15px;
+    color: #fff;
+}
+
+.sign-in .input-style {
+    border: none;
+    color: #206a9d;
+}
+
+.sign-in .link {
+    font: 14px Arial;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.sign-in-btns li {
+    margin: 0 0 15px;
+}
+
+.sign-in-btns .btn {
+    width: 205px;
+    padding: 15px;
+    line-height: 1;
+
+    -webkit-box-shadow: 2px 2px 3px rgba(46, 41, 41, 0.88);
+    -moz-box-shadow: 2px 2px 3px rgba(46, 41, 41, 0.88);
+    box-shadow: 2px 2px 3px rgba(46, 41, 41, 0.88);
+}
